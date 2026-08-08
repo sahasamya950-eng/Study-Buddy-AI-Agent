@@ -1,0 +1,34 @@
+# Study Notes: Introduction to Machine Learning & Artificial Intelligence
+
+## 1. Overview of Machine Learning
+Machine Learning (ML) is a subfield of Artificial Intelligence (AI) that focuses on building algorithms that allow computers to learn from data and improve their performance over time without being explicitly programmed.
+
+### Key Paradigms:
+1. **Supervised Learning:** The algorithm learns from labeled training data. Examples include Linear Regression, Decision Trees, and Support Vector Machines (SVM).
+2. **Unsupervised Learning:** The algorithm finds hidden patterns or intrinsic structures in unlabeled data. Examples include K-Means Clustering and Principal Component Analysis (PCA).
+3. **Reinforcement Learning:** An agent learns to achieve a goal in an interactive environment by trial and error using feedback from its own actions and experiences (rewards and penalties).
+
+## 2. Key Terminology & Definitions
+- **Dataset:** A collection of related sets of information composed of individual elements.
+- **Features (Input Variables):** The individual measurable properties or characteristics of a phenomenon being observed (denoted as X).
+- **Target (Label/Output Variable):** The value or class we are attempting to predict (denoted as y).
+- **Overfitting:** Occurs when a machine learning model learns the training data too well, capturing noise and details that negatively impact its performance on new, unseen data.
+- **Underfitting:** Occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and test data.
+
+## 3. Fundamental Formulas & Metrics
+- **Mean Squared Error (MSE):**
+  MSE = (1 / n) * \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+
+- **Accuracy Score:**
+  Accuracy = (Number of Correct Predictions) / (Total Number of Predictions)
+
+- **Precision & Recall:**
+  Precision = True Positives / (True Positives + False Positives)
+  Recall = True Positives / (True Positives + False Negatives)
+
+## 4. Model Training & Evaluation Workflow
+1. Data Preprocessing & Feature Engineering
+2. Train-Test Split (e.g., 80% Training, 20% Testing)
+3. Model Selection & Parameter Tuning
+4. Model Evaluation using Validation Metrics
+5. Deployment & Monitoring
